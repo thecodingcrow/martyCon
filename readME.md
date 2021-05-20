@@ -18,7 +18,7 @@ and finally write the connection string into another file.
 
 ### How does Marty even work
 
-Marty uses simple python string techniques to achieve glamorous results.
+Marty uses regex and simple python string techniques to achieve glamorous results.
 
 ### How to use Marty
 
