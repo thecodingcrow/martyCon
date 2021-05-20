@@ -33,6 +33,16 @@ https://realpython.com/run-python-scripts/#how-to-run-python-scripts-using-the-c
 
 #### General setup and usage
 
+Navigate to the [dist](https://github.com/thecodingcrow/martyCon/tree/master/dist) folder and download the current version
+
+The file structure should look like following:
+
+- res
+- out
+- datapoint.py
+- main.py
+- utils.py
+
 ##### **Running the script**
 
 - Change directory to martyCon_release_x
@@ -57,3 +67,5 @@ Last thing to do is to click the write button. The file will then be placed insi
 ### Relase notes
 
 20.04.2021 Initial Release
+
+20.5.2021 Fixed some bugs and beautified logging, initated github repo
