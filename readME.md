@@ -5,6 +5,9 @@ JK-Regeltechnik to improve the performance of certain tasks
 
 ## [Current Release](https://github.com/thecodingcrow/martyCon/tree/master/dist)
 
+Navigate to the zip file in the dist folder (link above) and then click on the Download button
+Find Setup instructions [here]()
+
 **Table of Contents**
 
 - What is Marty here for
