@@ -1,0 +1,111 @@
+#LOYTEC data point CSV,,,,,,,,,
+#creator: LOYTEC LINX Configurator 7.2.12 Dec 23 2020 11:44:00,,,,,,,,,
+#config: ,,,,,,,,,
+#date: 2021-03-31 17:41:48,,,,,,,,,
+#dp_csv_ver: 1,,,,,,,,,
+#target: BACnet Port,,,,,,,,,
+#UID,IdPath,Name,Description,SrvObj Name,Obj Description,COV Increment,Obj Type,Obj Inst,CliMap Inst
+0x158ee,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_StartStopCommand,DE102701XB01830E42R__RAU005UKG0001_StartStopCommand,ON/OFF (setting)_001,,,,,,257
+0x15914,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_StartStopStatus,DE102701XB01830E42R__RAU005UKG0001_StartStopStatus,ON/OFF (status)_001,,,,,,258
+0x15938,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_Alarm,DE102701XB01830E42R__RAU005UKG0001_Alarm,Alarm Sign_001,,,,,,259
+0x15957,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_MalfunctionCode,DE102701XB01830E42R__RAU005UKG0001_MalfunctionCode,Error Code_001,,,,,,260
+0x15973,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_AirConModeCommand,DE102701XB01830E42R__RAU005UKG0001_AirConModeCommand,Operation Mode (setting)_001,,,,,,261
+0x1598f,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_AirConModeStatus,DE102701XB01830E42R__RAU005UKG0001_AirConModeStatus,Operation Mode (status)_001,,,,,,262
+0x159ab,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_AirFlowRateCommand,DE102701XB01830E42R__RAU005UKG0001_AirFlowRateCommand,Airflow Rate (setting) _001,,,,,,263
+0x159c7,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_AirFlowRateStatus,DE102701XB01830E42R__RAU005UKG0001_AirFlowRateStatus,Airflow Rate (status)_001,,,,,,264
+0x159e9,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_RoomTemp,DE102701XB01830E42R__RAU005UKG0001_RoomTemp,Measured Room Temperature_001,,,0,,,265
+0x15a10,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_TempAdjust,DE102701XB01830E42R__RAU005UKG0001_TempAdjust,Set Room Temperature_001,,,0,,,266
+0x15a34,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_FilterSign,DE102701XB01830E42R__RAU005UKG0001_FilterSign,Filer Limit Sign_001,,,,,,267
+0x15a57,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_FilterSignReset,DE102701XB01830E42R__RAU005UKG0001_FilterSignReset,Filter Limit Sign Reset_001,,,,,,268
+0x15a79,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_RemoteControlStart,DE102701XB01830E42R__RAU005UKG0001_RemoteControlStart,Remote Control Operation (ON/OFF)_001,,,,,,269
+0x15a9b,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_RemoteControlAirConModeSet,DE102701XB01830E42R__RAU005UKG0001_RemoteControlAirConModeSet,Remote Control Operation (Operation Mode)_001,,,,,,270
+0x15abd,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_RemoteControlTempAdjust,DE102701XB01830E42R__RAU005UKG0001_RemoteControlTempAdjust,Remote Control Operation (Set Temperature)_001,,,,,,272
+0x15ae5,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_ElecTotalPower,DE102701XB01830E42R__RAU005UKG0001_ElecTotalPower,Elec Total Power_001,,,0,,,275
+0x15b0e,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_CommunicationStatus,DE102701XB01830E42R__RAU005UKG0001_CommunicationStatus,Communication Status_001,,,,,,276
+0x15b32,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_AirDirectionCommand,DE102701XB01830E42R__RAU005UKG0001_AirDirectionCommand,Air Direction (setting)_001,,,0,,,278
+0x15b59,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_AirDirectionStatus,DE102701XB01830E42R__RAU005UKG0001_AirDirectionStatus,Air Direction (status)_001,,,0,,,279
+0x15b82,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_ForcedThermoOFFCommand,DE102701XB01830E42R__RAU005UKG0001_ForcedThermoOFFCommand,Forced Thermostat OFF (setting)_001,,,,,,280
+0x15ba8,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_ForcedThermoOFFStatus,DE102701XB01830E42R__RAU005UKG0001_ForcedThermoOFFStatus,Forced Thermostat OFF (status)_001,,,,,,281
+0x15bce,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_EnergyEfficiencyCommand,DE102701XB01830E42R__RAU005UKG0001_EnergyEfficiencyCommand,Energy Efficiency Command (setting)_001,,,,,,282
+0x15bf4,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_EnergyEfficiencyStatus,DE102701XB01830E42R__RAU005UKG0001_EnergyEfficiencyStatus,Energy Efficiency Command (status)_001,,,,,,283
+0x15c18,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_ThermoStatus,DE102701XB01830E42R__RAU005UKG0001_ThermoStatus,Thermostat Status_001,,,,,,284
+0x15c3c,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_CompressorStatus,DE102701XB01830E42R__RAU005UKG0001_CompressorStatus,Compressor Status_001,,,,,,285
+0x15c60,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU005UKG0001_IndoorFanStatus,DE102701XB01830E42R__RAU005UKG0001_IndoorFanStatus,Indoor Fan Status_001,,,,,,286
+0x15c86,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_StartStopCommand,DE102701XB01830E42R__RAU004UKG0001_StartStopCommand,ON/OFF (setting)_002,,,,,,513
+0x15cac,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_StartStopStatus,DE102701XB01830E42R__RAU004UKG0001_StartStopStatus,ON/OFF (status)_002,,,,,,514
+0x15cd0,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_Alarm,DE102701XB01830E42R__RAU004UKG0001_Alarm,Alarm Sign_002,,,,,,515
+0x15cef,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_MalfunctionCode,DE102701XB01830E42R__RAU004UKG0001_MalfunctionCode,Error Code_002,,,,,,516
+0x15d0b,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_AirConModeCommand,DE102701XB01830E42R__RAU004UKG0001_AirConModeCommand,Operation Mode (setting)_002,,,,,,517
+0x15d27,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_AirConModeStatus,DE102701XB01830E42R__RAU004UKG0001_AirConModeStatus,Operation Mode (status)_002,,,,,,518
+0x15d43,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_AirFlowRateCommand,DE102701XB01830E42R__RAU004UKG0001_AirFlowRateCommand,Airflow Rate (setting) _002,,,,,,519
+0x15d5f,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_AirFlowRateStatus,DE102701XB01830E42R__RAU004UKG0001_AirFlowRateStatus,Airflow Rate (status)_002,,,,,,520
+0x15d81,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_RoomTemp,DE102701XB01830E42R__RAU004UKG0001_RoomTemp,Measured Room Temperature_002,,,0,,,521
+0x15da8,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_TempAdjust,DE102701XB01830E42R__RAU004UKG0001_TempAdjust,Set Room Temperature_002,,,0,,,522
+0x15dcc,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_FilterSign,DE102701XB01830E42R__RAU004UKG0001_FilterSign,Filer Limit Sign_002,,,,,,523
+0x15def,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_FilterSignReset,DE102701XB01830E42R__RAU004UKG0001_FilterSignReset,Filter Limit Sign Reset_002,,,,,,524
+0x15e11,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_RemoteControlStart,DE102701XB01830E42R__RAU004UKG0001_RemoteControlStart,Remote Control Operation (ON/OFF)_002,,,,,,525
+0x15e33,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_RemoteControlAirConModeSet,DE102701XB01830E42R__RAU004UKG0001_RemoteControlAirConModeSet,Remote Control Operation (Operation Mode)_002,,,,,,526
+0x15e55,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_RemoteControlTempAdjust,DE102701XB01830E42R__RAU004UKG0001_RemoteControlTempAdjust,Remote Control Operation (Set Temperature)_002,,,,,,528
+0x15e7d,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_ElecTotalPower,DE102701XB01830E42R__RAU004UKG0001_ElecTotalPower,Elec Total Power_002,,,0,,,531
+0x15ea6,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_CommunicationStatus,DE102701XB01830E42R__RAU004UKG0001_CommunicationStatus,Communication Status_002,,,,,,532
+0x15eca,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_AirDirectionCommand,DE102701XB01830E42R__RAU004UKG0001_AirDirectionCommand,Air Direction (setting)_002,,,0,,,534
+0x15ef1,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_AirDirectionStatus,DE102701XB01830E42R__RAU004UKG0001_AirDirectionStatus,Air Direction (status)_002,,,0,,,535
+0x15f1a,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_ForcedThermoOFFCommand,DE102701XB01830E42R__RAU004UKG0001_ForcedThermoOFFCommand,Forced Thermostat OFF (setting)_002,,,,,,536
+0x15f40,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_ForcedThermoOFFStatus,DE102701XB01830E42R__RAU004UKG0001_ForcedThermoOFFStatus,Forced Thermostat OFF (status)_002,,,,,,537
+0x15f66,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_EnergyEfficiencyCommand,DE102701XB01830E42R__RAU004UKG0001_EnergyEfficiencyCommand,Energy Efficiency Command (setting)_002,,,,,,538
+0x15f8c,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_EnergyEfficiencyStatus,DE102701XB01830E42R__RAU004UKG0001_EnergyEfficiencyStatus,Energy Efficiency Command (status)_002,,,,,,539
+0x15fb0,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_ThermoStatus,DE102701XB01830E42R__RAU004UKG0001_ThermoStatus,Thermostat Status_002,,,,,,540
+0x15fd4,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_CompressorStatus,DE102701XB01830E42R__RAU004UKG0001_CompressorStatus,Compressor Status_002,,,,,,541
+0x15ff8,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU004UKG0001_IndoorFanStatus,DE102701XB01830E42R__RAU004UKG0001_IndoorFanStatus,Indoor Fan Status_002,,,,,,542
+0x1601e,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_StartStopCommand,DE102701XB01830E42R__RAU003UKG0001_StartStopCommand,ON/OFF (setting)_003,,,,,,769
+0x16044,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_StartStopStatus,DE102701XB01830E42R__RAU003UKG0001_StartStopStatus,ON/OFF (status)_003,,,,,,770
+0x16068,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_Alarm,DE102701XB01830E42R__RAU003UKG0001_Alarm,Alarm Sign_003,,,,,,771
+0x16087,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_MalfunctionCode,DE102701XB01830E42R__RAU003UKG0001_MalfunctionCode,Error Code_003,,,,,,772
+0x160a3,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_AirConModeCommand,DE102701XB01830E42R__RAU003UKG0001_AirConModeCommand,Operation Mode (setting)_003,,,,,,773
+0x160bf,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_AirConModeStatus,DE102701XB01830E42R__RAU003UKG0001_AirConModeStatus,Operation Mode (status)_003,,,,,,774
+0x160db,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_AirFlowRateCommand,DE102701XB01830E42R__RAU003UKG0001_AirFlowRateCommand,Airflow Rate (setting) _003,,,,,,775
+0x160f7,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_AirFlowRateStatus,DE102701XB01830E42R__RAU003UKG0001_AirFlowRateStatus,Airflow Rate (status)_003,,,,,,776
+0x16119,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_RoomTemp,DE102701XB01830E42R__RAU003UKG0001_RoomTemp,Measured Room Temperature_003,,,0,,,777
+0x16140,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_TempAdjust,DE102701XB01830E42R__RAU003UKG0001_TempAdjust,Set Room Temperature_003,,,0,,,778
+0x16164,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_FilterSign,DE102701XB01830E42R__RAU003UKG0001_FilterSign,Filer Limit Sign_003,,,,,,779
+0x16187,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_FilterSignReset,DE102701XB01830E42R__RAU003UKG0001_FilterSignReset,Filter Limit Sign Reset_003,,,,,,780
+0x161a9,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_RemoteControlStart,DE102701XB01830E42R__RAU003UKG0001_RemoteControlStart,Remote Control Operation (ON/OFF)_003,,,,,,781
+0x161cb,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_RemoteControlAirConModeSet,DE102701XB01830E42R__RAU003UKG0001_RemoteControlAirConModeSet,Remote Control Operation (Operation Mode)_003,,,,,,782
+0x161ed,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_RemoteControlTempAdjust,DE102701XB01830E42R__RAU003UKG0001_RemoteControlTempAdjust,Remote Control Operation (Set Temperature)_003,,,,,,784
+0x16215,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_ElecTotalPower,DE102701XB01830E42R__RAU003UKG0001_ElecTotalPower,Elec Total Power_003,,,0,,,787
+0x1623e,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_CommunicationStatus,DE102701XB01830E42R__RAU003UKG0001_CommunicationStatus,Communication Status_003,,,,,,788
+0x16262,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_AirDirectionCommand,DE102701XB01830E42R__RAU003UKG0001_AirDirectionCommand,Air Direction (setting)_003,,,0,,,790
+0x16289,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_AirDirectionStatus,DE102701XB01830E42R__RAU003UKG0001_AirDirectionStatus,Air Direction (status)_003,,,0,,,791
+0x162b2,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_ForcedThermoOFFCommand,DE102701XB01830E42R__RAU003UKG0001_ForcedThermoOFFCommand,Forced Thermostat OFF (setting)_003,,,,,,792
+0x162d8,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_ForcedThermoOFFStatus,DE102701XB01830E42R__RAU003UKG0001_ForcedThermoOFFStatus,Forced Thermostat OFF (status)_003,,,,,,793
+0x162fe,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_EnergyEfficiencyCommand,DE102701XB01830E42R__RAU003UKG0001_EnergyEfficiencyCommand,Energy Efficiency Command (setting)_003,,,,,,794
+0x16324,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_EnergyEfficiencyStatus,DE102701XB01830E42R__RAU003UKG0001_EnergyEfficiencyStatus,Energy Efficiency Command (status)_003,,,,,,795
+0x16348,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_ThermoStatus,DE102701XB01830E42R__RAU003UKG0001_ThermoStatus,Thermostat Status_003,,,,,,796
+0x1636c,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_CompressorStatus,DE102701XB01830E42R__RAU003UKG0001_CompressorStatus,Compressor Status_003,,,,,,797
+0x16390,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU003UKG0001_IndoorFanStatus,DE102701XB01830E42R__RAU003UKG0001_IndoorFanStatus,Indoor Fan Status_003,,,,,,798
+0x163b6,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_StartStopCommand,DE102701XB01830E42R__RAU002UKG0001_StartStopCommand,ON/OFF (setting)_004,,,,,,1025
+0x163dc,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_StartStopStatus,DE102701XB01830E42R__RAU002UKG0001_StartStopStatus,ON/OFF (status)_004,,,,,,1026
+0x16400,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_Alarm,DE102701XB01830E42R__RAU002UKG0001_Alarm,Alarm Sign_004,,,,,,1027
+0x1641f,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_MalfunctionCode,DE102701XB01830E42R__RAU002UKG0001_MalfunctionCode,Error Code_004,,,,,,1028
+0x1643b,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_AirConModeCommand,DE102701XB01830E42R__RAU002UKG0001_AirConModeCommand,Operation Mode (setting)_004,,,,,,1029
+0x16457,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_AirConModeStatus,DE102701XB01830E42R__RAU002UKG0001_AirConModeStatus,Operation Mode (status)_004,,,,,,1030
+0x16473,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_AirFlowRateCommand,DE102701XB01830E42R__RAU002UKG0001_AirFlowRateCommand,Airflow Rate (setting) _004,,,,,,1031
+0x1648f,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_AirFlowRateStatus,DE102701XB01830E42R__RAU002UKG0001_AirFlowRateStatus,Airflow Rate (status)_004,,,,,,1032
+0x164b1,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_RoomTemp,DE102701XB01830E42R__RAU002UKG0001_RoomTemp,Measured Room Temperature_004,,,0,,,1033
+0x164d8,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_TempAdjust,DE102701XB01830E42R__RAU002UKG0001_TempAdjust,Set Room Temperature_004,,,0,,,1034
+0x164fc,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_FilterSign,DE102701XB01830E42R__RAU002UKG0001_FilterSign,Filer Limit Sign_004,,,,,,1035
+0x1651f,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_FilterSignReset,DE102701XB01830E42R__RAU002UKG0001_FilterSignReset,Filter Limit Sign Reset_004,,,,,,1036
+0x16541,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_RemoteControlStart,DE102701XB01830E42R__RAU002UKG0001_RemoteControlStart,Remote Control Operation (ON/OFF)_004,,,,,,1037
+0x16563,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_RemoteControlAirConModeSet,DE102701XB01830E42R__RAU002UKG0001_RemoteControlAirConModeSet,Remote Control Operation (Operation Mode)_004,,,,,,1038
+0x16585,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_RemoteControlTempAdjust,DE102701XB01830E42R__RAU002UKG0001_RemoteControlTempAdjust,Remote Control Operation (Set Temperature)_004,,,,,,1040
+0x165ad,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_ElecTotalPower,DE102701XB01830E42R__RAU002UKG0001_ElecTotalPower,Elec Total Power_004,,,0,,,1043
+0x165d6,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_CommunicationStatus,DE102701XB01830E42R__RAU002UKG0001_CommunicationStatus,Communication Status_004,,,,,,1044
+0x165fa,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_AirDirectionCommand,DE102701XB01830E42R__RAU002UKG0001_AirDirectionCommand,Air Direction (setting)_004,,,0,,,1046
+0x16621,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_AirDirectionStatus,DE102701XB01830E42R__RAU002UKG0001_AirDirectionStatus,Air Direction (status)_004,,,0,,,1047
+0x1664a,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_ForcedThermoOFFCommand,DE102701XB01830E42R__RAU002UKG0001_ForcedThermoOFFCommand,Forced Thermostat OFF (setting)_004,,,,,,1048
+0x16670,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_ForcedThermoOFFStatus,DE102701XB01830E42R__RAU002UKG0001_ForcedThermoOFFStatus,Forced Thermostat OFF (status)_004,,,,,,1049
+0x16696,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_EnergyEfficiencyCommand,DE102701XB01830E42R__RAU002UKG0001_EnergyEfficiencyCommand,Energy Efficiency Command (setting)_004,,,,,,1050
+0x166bc,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_EnergyEfficiencyStatus,DE102701XB01830E42R__RAU002UKG0001_EnergyEfficiencyStatus,Energy Efficiency Command (status)_004,,,,,,1051
+0x166e0,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_ThermoStatus,DE102701XB01830E42R__RAU002UKG0001_ThermoStatus,Thermostat Status_004,,,,,,1052
+0x16704,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_CompressorStatus,DE102701XB01830E42R__RAU002UKG0001_CompressorStatus,Compressor Status_004,,,,,,1053
+0x16728,BACnet Port.Datapoints.Daikin _1(1).DE102701XB01E42R_RAU002UKG0001_IndoorFanStatus,DE102701XB01830E42R__RAU002UKG0001_IndoorFanStatus,Indoor Fan Status_004,,,,,,1054

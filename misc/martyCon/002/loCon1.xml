@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectionCfg>
+ <resources baseVersion="15">
+  <capabilities>
+   <readOnlyStateMaps/>
+  </capabilities>
+  <units name="Acceleration"/>
+  <units name="Area"/>
+  <units name="Electrical">
+   <unit id="res0x00200000" unitText="V" unitID="5" groupID="5" usageID="3" kg="1" m="2" s="-3" A="-1" altTexts="VAC, VDC, Volts"/>
+  </units>
+  <units name="Energy">
+   <unit id="res0x00200001" unitText="kWh" unitID="19" altID="19" groupID="18" usageID="18" kg="1" m="2" s="-2" factor="3600000"/>
+  </units>
+  <units name="Enthalpy"/>
+  <units name="Entropy"/>
+  <units name="Force"/>
+  <units name="Frequency">
+   <unit id="res0x00200002" unitText="1/s" unitID="101" groupID="131" s="-1" altTexts="per s"/>
+  </units>
+  <units name="Length">
+   <unit id="res0x00200003" unitText="m" unitID="31" altID="33" groupID="31" m="1"/>
+   <unit id="res0x00200004" unitText="ft." unitID="33" class="2" altID="31" groupID="32" m="1" factor="0.3048" altTexts="foot, ft"/>
+  </units>
+  <units name="Light"/>
+  <units name="Mass"/>
+  <units name="Mass Flow"/>
+  <units name="Power"/>
+  <units name="Pressure"/>
+  <units name="Temperature">
+   <unit id="res0x00200005" unitText="°C" unitID="62" altID="64" K="1" offset="273.15" altTexts="deg C"/>
+   <unit id="res0x00200006" unitText="°F" unitID="64" class="2" altID="62" K="1" factor="5" frac="9" offset="255.372222222" altTexts="deg F"/>
+  </units>
+  <units name="Time">
+   <unit id="res0x00200007" unitText="s" unitID="73" groupID="73" s="1" altTexts="second, seconds"/>
+  </units>
+  <units name="Torque"/>
+  <units name="Velocity"/>
+  <units name="Volume"/>
+  <units name="Volumetric Flow"/>
+  <units name="Density"/>
+  <units name="Radiation"/>
+  <units name="Angular">
+   <unit id="res0x00200008" unitText="°" unitID="90" groupID="90" rad="1" factor="3.14159265359" frac="180" altTexts="deg, degrees, degrees angular"/>
+  </units>
+  <units name="Percentage">
+   <unit id="res0x00200009" unitText="%" unitID="98" groupID="98" factor="0.01" altTexts="perc, percent"/>
+  </units>
+  <units name="Logarithmic"/>
+  <units name="Other"/>
+  <units name="User"/>
+  <historicFilters/>
+  <scope name="BACnet" defaultDataAlignment="asn1" minimalLogicTypes="true">
+   <multistates>
+    <multistateMap id="gen0x00400000" name="255-states-0-to-4E">
+     <stateText stateVal="1" name="0"/>
+     <stateText stateVal="2" name="1"/>
+     <stateText stateVal="3" name="2"/>
+     <stateText stateVal="4" name="3"/>
+     <stateText stateVal="5" name="4"/>
+     <stateText stateVal="6" name="5"/>
+     <stateText stateVal="7" name="6"/>
+     <stateText stateVal="8" name="7"/>
+     <stateText stateVal="9" name="8"/>
+     <stateText stateVal="10" name="9"/>
+     <stateText stateVal="11" name="0A"/>
+     <stateText stateVal="12" name="0H"/>
+     <stateText stateVal="13" name="0C"/>
+     <stateText stateVal="14" name="0J"/>
+     <stateText stateVal="15" name="0E"/>
+     <stateText stateVal="16" name="0F"/>
+     <stateText stateVal="17" name="A0"/>
+     <stateText stateVal="18" name="A1"/>
+     <stateText stateVal="19" name="A2"/>
+     <stateText stateVal="20" name="A3"/>
+     <stateText stateVal="21" name="A4"/>
+     <stateText stateVal="22" name="A5"/>
+     <stateText stateVal="23" name="A6"/>
+     <stateText stateVal="24" name="A7"/>
+     <stateText stateVal="25" name="A8"/>
+     <stateText stateVal="26" name="A9"/>
+     <stateText stateVal="27" name="AA"/>
+     <stateText stateVal="28" name="AH"/>
+     <stateText stateVal="29" name="AC"/>
+     <stateText stateVal="30" name="AJ"/>
+     <stateText stateVal="31" name="AE"/>
+     <stateText stateVal="32" name="AF"/>
+     <stateText stateVal="33" name="C0"/>
+     <stateText stateVal="34" name="C1"/>
+     <stateText stateVal="35" name="C2"/>
+     <stateText stateVal="36" name="C3"/>
+     <stateText stateVal="37" name="C4"/>
+     <stateText stateVal="38" name="C5"/>
+     <stateText stateVal="39" name="C6"/>
+     <stateText stateVal="40" name="C7"/>
+     <stateText stateVal="41" name="C8"/>
+     <stateText stateVal="42" name="C9"/>
+     <stateText stateVal="43" name="CA"/>
+     <stateText stateVal="44" name="CH"/>
+     <stateText stateVal="45" name="CC"/>
+     <stateText stateVal="46" name="CJ"/>
+     <stateText stateVal="47" name="CE"/>
+     <stateText stateVal="48" name="CF"/>
+     <stateText stateVal="49" name="E0"/>
+     <stateText stateVal="50" name="E1"/>
+     <stateText stateVal="51" name="E2"/>
+     <stateText stateVal="52" name="E3"/>
+     <stateText stateVal="53" name="E4"/>
+     <stateText stateVal="54" name="E5"/>
+     <stateText stateVal="55" name="E6"/>
+     <stateText stateVal="56" name="E7"/>
+     <stateText stateVal="57" name="E8"/>
+     <stateText stateVal="58" name="E9"/>
+     <stateText stateVal="59" name="EA"/>
+     <stateText stateVal="60" name="EH"/>
+     <stateText stateVal="61" name="EC"/>
+     <stateText stateVal="62" name="EJ"/>
+     <stateText stateVal="63" name="EE"/>
+     <stateText stateVal="64" name="EF"/>
+     <stateText stateVal="65" name="H0"/>
+     <stateText stateVal="66" name="H1"/>
+     <stateText stateVal="67" name="H2"/>
+     <stateText stateVal="68" name="H3"/>
+     <stateText stateVal="69" name="H4"/>
+     <stateText stateVal="70" name="H5"/>
+     <stateText stateVal="71" name="H6"/>
+     <stateText stateVal="72" name="H7"/>
+     <stateText stateVal="73" name="H8"/>
+     <stateText stateVal="74" name="H9"/>
+     <stateText stateVal="75" name="HA"/>
+     <stateText stateVal="76" name="HH"/>
+     <stateText stateVal="77" name="HC"/>
+     <stateText stateVal="78" name="HJ"/>
+     <stateText stateVal="79" name="HE"/>
+     <stateText stateVal="80" name="HF"/>
+     <stateText stateVal="81" name="F0"/>
+     <stateText stateVal="82" name="F1"/>
+     <stateText stateVal="83" name="F2"/>
+     <stateText stateVal="84" name="F3"/>
+     <stateText stateVal="85" name="F4"/>
+     <stateText stateVal="86" name="F5"/>
+     <stateText stateVal="87" name="F6"/>
+     <stateText stateVal="88" name="F7"/>
+     <stateText stateVal="89" name="F8"/>
+     <stateText stateVal="90" name="F9"/>
+     <stateText stateVal="91" name="FA"/>
+     <stateText stateVal="92" name="FH"/>
+     <stateText stateVal="93" name="FC"/>
+     <stateText stateVal="94" name="FJ"/>
+     <stateText stateVal="95" name="FE"/>
+     <stateText stateVal="96" name="FF"/>
+     <stateText stateVal="97" name="J0"/>
+     <stateText stateVal="98" name="J1"/>
+     <stateText stateVal="99" name="J2"/>
+     <stateText stateVal="100" name="J3"/>
+     <stateText stateVal="101" name="J4"/>
+     <stateText stateVal="102" name="J5"/>
+     <stateText stateVal="103" name="J6"/>
+     <stateText stateVal="104" name="J7"/>
+     <stateText stateVal="105" name="J8"/>
+     <stateText stateVal="106" name="J9"/>
+     <stateText stateVal="107" name="JA"/>
+     <stateText stateVal="108" name="JH"/>
+     <stateText stateVal="109" name="JC"/>
+     <stateText stateVal="110" name="JJ"/>
+     <stateText stateVal="111" name="JE"/>
+     <stateText stateVal="112" name="JF"/>
+     <stateText stateVal="113" name="L0"/>
+     <stateText stateVal="114" name="L1"/>
+     <stateText stateVal="115" name="L2"/>
+     <stateText stateVal="116" name="L3"/>
+     <stateText stateVal="117" name="L4"/>
+     <stateText stateVal="118" name="L5"/>
+     <stateText stateVal="119" name="L6"/>
+     <stateText stateVal="120" name="L7"/>
+     <stateText stateVal="121" name="L8"/>
+     <stateText stateVal="122" name="L9"/>
+     <stateText stateVal="123" name="LA"/>
+     <stateText stateVal="124" name="LH"/>
+     <stateText stateVal="125" name="LC"/>
+     <stateText stateVal="126" name="LJ"/>
+     <stateText stateVal="127" name="LE"/>
+     <stateText stateVal="128" name="LF"/>
+     <stateText stateVal="129" name="P0"/>
+     <stateText stateVal="130" name="P1"/>
+     <stateText stateVal="131" name="P2"/>
+     <stateText stateVal="132" name="P3"/>
+     <stateText stateVal="133" name="P4"/>
+     <stateText stateVal="134" name="P5"/>
+     <stateText stateVal="135" name="P6"/>
+     <stateText stateVal="136" name="P7"/>
+     <stateText stateVal="137" name="P8"/>
+     <stateText stateVal="138" name="P9"/>
+     <stateText stateVal="139" name="PA"/>
+     <stateText stateVal="140" name="PH"/>
+     <stateText stateVal="141" name="PC"/>
+     <stateText stateVal="142" name="PJ"/>
+     <stateText stateVal="143" name="PE"/>
+     <stateText stateVal="144" name="PF"/>
+     <stateText stateVal="145" name="U0"/>
+     <stateText stateVal="146" name="U1"/>
+     <stateText stateVal="147" name="U2"/>
+     <stateText stateVal="148" name="U3"/>
+     <stateText stateVal="149" name="U4"/>
+     <stateText stateVal="150" name="U5"/>
+     <stateText stateVal="151" name="U6"/>
+     <stateText stateVal="152" name="U7"/>
+     <stateText stateVal="153" name="U8"/>
+     <stateText stateVal="154" name="U9"/>
+     <stateText stateVal="155" name="UA"/>
+     <stateText stateVal="156" name="UH"/>
+     <stateText stateVal="157" name="UC"/>
+     <stateText stateVal="158" name="UJ"/>
+     <stateText stateVal="159" name="UE"/>
+     <stateText stateVal="160" name="UF"/>
+     <stateText stateVal="161" name="90"/>
+     <stateText stateVal="162" name="91"/>
+     <stateText stateVal="163" name="92"/>
+     <stateText stateVal="164" name="93"/>
+     <stateText stateVal="165" name="94"/>
+     <stateText stateVal="166" name="95"/>
+     <stateText stateVal="167" name="96"/>
+     <stateText stateVal="168" name="97"/>
+     <stateText stateVal="169" name="98"/>
+     <stateText stateVal="170" name="99"/>
+     <stateText stateVal="171" name="9A"/>
+     <stateText stateVal="172" name="9H"/>
+     <stateText stateVal="173" name="9C"/>
+     <stateText stateVal="174" name="9J"/>
+     <stateText stateVal="175" name="9E"/>
+     <stateText stateVal="176" name="9F"/>
+     <stateText stateVal="177" name="80"/>
+     <stateText stateVal="178" name="81"/>
+     <stateText stateVal="179" name="82"/>
+     <stateText stateVal="180" name="83"/>
+     <stateText stateVal="181" name="84"/>
+     <stateText stateVal="182" name="85"/>
+     <stateText stateVal="183" name="86"/>
+     <stateText stateVal="184" name="87"/>
+     <stateText stateVal="185" name="88"/>
+     <stateText stateVal="186" name="89"/>
+     <stateText stateVal="187" name="8A"/>
+     <stateText stateVal="188" name="8H"/>
+     <stateText stateVal="189" name="8C"/>
+     <stateText stateVal="190" name="8J"/>
+     <stateText stateVal="191" name="8E"/>
+     <stateText stateVal="192" name="8F"/>
+     <stateText stateVal="193" name="70"/>
+     <stateText stateVal="194" name="71"/>
+     <stateText stateVal="195" name="72"/>
+     <stateText stateVal="196" name="73"/>
+     <stateText stateVal="197" name="74"/>
+     <stateText stateVal="198" name="75"/>
+     <stateText stateVal="199" name="76"/>
+     <stateText stateVal="200" name="77"/>
+     <stateText stateVal="201" name="78"/>
+     <stateText stateVal="202" name="79"/>
+     <stateText stateVal="203" name="7A"/>
+     <stateText stateVal="204" name="7H"/>
+     <stateText stateVal="205" name="7C"/>
+     <stateText stateVal="206" name="7J"/>
+     <stateText stateVal="207" name="7E"/>
+     <stateText stateVal="208" name="7F"/>
+     <stateText stateVal="209" name="60"/>
+     <stateText stateVal="210" name="61"/>
+     <stateText stateVal="211" name="62"/>
+     <stateText stateVal="212" name="63"/>
+     <stateText stateVal="213" name="64"/>
+     <stateText stateVal="214" name="65"/>
+     <stateText stateVal="215" name="66"/>
+     <stateText stateVal="216" name="67"/>
+     <stateText stateVal="217" name="68"/>
+     <stateText stateVal="218" name="69"/>
+     <stateText stateVal="219" name="6A"/>
+     <stateText stateVal="220" name="6H"/>
+     <stateText stateVal="221" name="6C"/>
+     <stateText stateVal="222" name="6J"/>
+     <stateText stateVal="223" name="6E"/>
+     <stateText stateVal="224" name="6F"/>
+     <stateText stateVal="225" name="50"/>
+     <stateText stateVal="226" name="51"/>
+     <stateText stateVal="227" name="52"/>
+     <stateText stateVal="228" name="53"/>
+     <stateText stateVal="229" name="54"/>
+     <stateText stateVal="230" name="55"/>
+     <stateText stateVal="231" name="56"/>
+     <stateText stateVal="232" name="57"/>
+     <stateText stateVal="233" name="58"/>
+     <stateText stateVal="234" name="59"/>
+     <stateText stateVal="235" name="5A"/>
+     <stateText stateVal="236" name="5H"/>
+     <stateText stateVal="237" name="5C"/>
+     <stateText stateVal="238" name="5J"/>
+     <stateText stateVal="239" name="5E"/>
+     <stateText stateVal="240" name="5F"/>
+     <stateText stateVal="241" name="40"/>
+     <stateText stateVal="242" name="41"/>
+     <stateText stateVal="243" name="42"/>
+     <stateText stateVal="244" name="43"/>
+     <stateText stateVal="245" name="44"/>
+     <stateText stateVal="246" name="45"/>
+     <stateText stateVal="247" name="46"/>
+     <stateText stateVal="248" name="47"/>
+     <stateText stateVal="249" name="48"/>
+     <stateText stateVal="250" name="49"/>
+     <stateText stateVal="251" name="4A"/>
+     <stateText stateVal="252" name="4H"/>
+     <stateText stateVal="253" name="4C"/>
+     <stateText stateVal="254" name="4J"/>
+     <stateText stateVal="255" name="4E"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400001" name="4-states-Kuehlen-to-Automatik">
+     <stateText stateVal="1" name="Kuehlen"/>
+     <stateText stateVal="2" name="Heizen "/>
+     <stateText stateVal="3" name="Lueften"/>
+     <stateText stateVal="4" name="Automatik"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400002" name="2-states-Niedrig-to-Hoch">
+     <stateText stateVal="1" name="Niedrig"/>
+     <stateText stateVal="2" name="Hoch"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400003" name="5-states-NULL-to-OCCUPIED">
+     <stateText stateVal="1" name="NULL"/>
+     <stateText stateVal="2" name="UNOCCUPIED"/>
+     <stateText stateVal="3" name="STANDBY"/>
+     <stateText stateVal="4" name="BYPASS"/>
+     <stateText stateVal="5" name="OCCUPIED"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400004" name="16-states-NULL-to-DEHUMID">
+     <stateText stateVal="1" name="NULL"/>
+     <stateText stateVal="2" name="AUTO"/>
+     <stateText stateVal="3" name="HEAT"/>
+     <stateText stateVal="4" name="MRG_WARMUP"/>
+     <stateText stateVal="5" name="COOL"/>
+     <stateText stateVal="6" name="NIGHT_PURGE"/>
+     <stateText stateVal="7" name="PRE_COOL"/>
+     <stateText stateVal="8" name="OFF"/>
+     <stateText stateVal="9" name="TEST"/>
+     <stateText stateVal="10" name="EMRG_HEAT"/>
+     <stateText stateVal="11" name="FAN_ONLY"/>
+     <stateText stateVal="12" name="FREE_COOL"/>
+     <stateText stateVal="13" name="ICE"/>
+     <stateText stateVal="14" name="MAX_HEAT"/>
+     <stateText stateVal="15" name="ECONOMY"/>
+     <stateText stateVal="16" name="DEHUMID"/>
+    </multistateMap>
+   </multistates>
+   <scriptResources/>
+   <types>
+    <simpleType id="res0x00600000" name="_Bit" description="" rawType="BOOL" bitLen="1"/>
+    <structType id="res0x00600001" name="BACnetLimitEnable" description="" instanceable="true" asn1Align="true">
+     <field id="res0x00800000" name="lowLimitEnable" typeRef="res0x00600000"/>
+     <field id="res0x00800001" name="highLimitEnable" typeRef="res0x00600000"/>
+    </structType>
+   </types>
+  </scope>
+  <scope name="CEA-709">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="DALI" minimalLogicTypes="true">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="ekey" minimalLogicTypes="true">
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="EnOcean" minimalLogicTypes="true">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="KNX">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="L-STAT" minimalLogicTypes="true">
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="LDALI">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="LIOB">
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="LogiCAD" defaultDataAlignment="logicad">
+   <scriptResources/>
+   <units>
+    <unit id="res0x0020000a" unitText="s" unitID="73" groupID="73" s="1" altTexts="second, seconds"/>
+   </units>
+   <types/>
+  </scope>
+  <scope name="Loytec">
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="Modbus">
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="MPBus" minimalLogicTypes="true">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="SMI" minimalLogicTypes="true">
+   <multistates/>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <scope name="System">
+   <multistates>
+    <multistateMap id="gen0x00400005" name="Command" readonly="true">
+     <stateText stateVal="1" name="None"/>
+     <stateText stateVal="2" name="Warm Reboot"/>
+     <stateText stateVal="3" name="Cold Reboot"/>
+     <stateText stateVal="4" name="Save Parameters"/>
+     <stateText stateVal="5" name="Reset Parameters"/>
+     <stateText stateVal="6" name="Restart Scripts"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400006" name="DeviceStatus" readonly="true">
+     <stateText stateVal="1" name="OK"/>
+     <stateText stateVal="2" name="WARNING"/>
+     <stateText stateVal="3" name="CRITICAL"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400007" name="Unit" readonly="true">
+     <stateText stateVal="1" name="SI unit"/>
+     <stateText stateVal="2" name="US unit"/>
+    </multistateMap>
+   </multistates>
+   <scriptResources/>
+   <types>
+    <simpleType id="res0x00600002" name="TimeStamp_day" description="Zero (0) means day not specified." rawType="UINT" bitLen="8">
+     <limit highLimit="31"/>
+    </simpleType>
+    <simpleType id="res0x00600003" name="TimeStamp_hour" description="This field uses a 24-hour value." rawType="UINT" bitLen="8">
+     <limit highLimit="23"/>
+    </simpleType>
+    <simpleType id="res0x00600004" name="TimeStamp_minute" description="" rawType="UINT" bitLen="8">
+     <limit highLimit="59"/>
+    </simpleType>
+    <simpleType id="res0x00600005" name="TimeStamp_month" description="Zero (0) means month not specified." rawType="UINT" bitLen="8">
+     <limit highLimit="12"/>
+    </simpleType>
+    <simpleType id="res0x00600006" name="TimeStamp_second" description="" rawType="UINT" bitLen="8">
+     <limit highLimit="59"/>
+    </simpleType>
+    <simpleType id="res0x00600007" name="TimeStamp_year" description="Zero (0) means year not specified. Minus one (-1) represents NULL date." rawType="INT" bitLen="16" invalidValue="FFFF">
+     <limit highLimit="3000" lowLimit="-1"/>
+    </simpleType>
+    <structType id="res0x00600008" name="TimeStamp" description="" byteLen="7" instanceable="true">
+     <field id="res0x00800002" name="year" typeRef="res0x00600007" startBit="0"/>
+     <field id="res0x00800003" name="month" typeRef="res0x00600005" startBit="16"/>
+     <field id="res0x00800004" name="day" typeRef="res0x00600002" startBit="24"/>
+     <field id="res0x00800005" name="hour" typeRef="res0x00600003" startBit="32"/>
+     <field id="res0x00800006" name="minute" typeRef="res0x00600004" startBit="40"/>
+     <field id="res0x00800007" name="second" typeRef="res0x00600006" startBit="48"/>
+    </structType>
+   </types>
+  </scope>
+  <scope name="User">
+   <multistates>
+    <multistateMap id="gen0x00400008" name="UndefinedStates" readonly="true">
+     <stateText stateVal="1" name="STATE_NULL"/>
+    </multistateMap>
+    <multistateMap id="gen0x00400009" name="linx_sysreg_eth_link_e" readonly="true">
+     <stateText stateVal="0" name="No link"/>
+     <stateText stateVal="1" name="Eth 1"/>
+     <stateText stateVal="2" name="Eth 2"/>
+     <stateText stateVal="3" name="Eth 1 + Eth 2"/>
+    </multistateMap>
+   </multistates>
+   <scriptResources/>
+   <types/>
+  </scope>
+  <adaptors/>
+  <rules>
+   <userPrefs/>
+  </rules>
+ </resources>
+ <gatewayHubConfig>
+  <localHubs name="hubFolder">
+   <folder name="530E01">
+    <folder name="RAU0001">
+     <pointHub id="hub0x00001000" hubName="DE102701XB01530E01R__RAU001RMC0001MWB" hubDescription="" pointType="analog">
+      <hubItem path="BACnet Port.Datapoints.Daikin _1_1.975E43R_RAU003UKG0001_TempAdjust" direction="out"/>
+      <hubItem path="BACnet Port.Datapoints.DE102701XB01530E01.DE102701XB01530E01R__RAU001RMC0001MWB" direction="in"/>
+      <slots>
+       <slot name="DE102701XB01530E01R__RAU001RMC0001MWB" pointType="analog" unitRef="res0x00200001"/>
+      </slots>
+     </pointHub>
+    </folder>
+    <folder name="RAU0002"/>
+    <folder name="RAU0003"/>
+   </folder>
+   <folder name="New Folder"/>
+  </localHubs>
+ </gatewayHubConfig>
+</ConnectionCfg>

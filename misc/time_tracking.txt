@@ -1,0 +1,12 @@
+17.03.21 1h general setup, first approach
+30.03.2021 4h finalized first approach, v0 is ready 
+31.03.2021 45min Call with Lukas about the current status, next features discussed
+
+14.042021 5h10min v1.1 erstellt, bugfixing, Call with Lukas about the current status, bugs discussed
+18.04.2021 4h25 martyCon v2 erstellt, GUI, multiple runs are now supported, some bugs fixed
+19.04 1h20 martyCon_v2.1 erstellt, GUI updates,added FE logging and custom filenames
+24.04.2021 Bgean rework,implemented data point type
+
+
+total: 16h40min
+

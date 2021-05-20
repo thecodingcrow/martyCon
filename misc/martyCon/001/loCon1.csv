@@ -1,0 +1,3 @@
+#connection_csv_ver;3
+#ID;ConnectionName;ConnectionDescription;TargetDPName
+0x1002;E42R__RAU005;;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU005FUE0001MW_;Send;;BACnet Port.Datapoints.Daikin _1(1).DE102701XB01830E42R__RAU005UKG0001_TempAdjust;Receive;

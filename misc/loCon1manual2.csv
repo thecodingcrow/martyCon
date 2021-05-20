@@ -1,0 +1,6 @@
+#connection_csv_ver;3
+#ID;ConnectionName;ConnectionDescription;TargetDPName
+0x1004;DE102701XB01830E42R__RAU005UKG0001_TempAdjust;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU005FUE0001MW_;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU005FUE0001MW_;Send;;BACnet Port.Datapoints.Daikin _1(1).DE102701XB01830E42R__RAU005UKG0001_TempAdjust;Receive;
+0x1006;DE102701XB01830E42R__RAU004UKG0001_TempAdjust;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU004FUE0001MW_;BACnet Port.Datapoints.Daikin _1(1).DE102701XB01830E42R__RAU004UKG0001_TempAdjust;Receive;;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU004FUE0001MW_;Send;
+0x1008;DE102701XB01830E42R__RAU003UKG0001_TempAdjust;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU003FUE0001MW_;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU003FUE0001MW_;Send;;BACnet Port.Datapoints.Daikin _1(1).DE102701XB01830E42R__RAU003UKG0001_TempAdjust;Receive;
+0x100A;DE102701XB01830E42R__RAU002UKG0001_TempAdjust;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU002FUE0001MW_;BACnet Port.Datapoints.Daikin _1(1).DE102701XB01830E42R__RAU002UKG0001_TempAdjust;Receive;;BACnet Port.Datapoints.Default device name(0).DE102701XB01830E42R__RAU002FUE0001MW_;Send;
