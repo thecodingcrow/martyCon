@@ -3,6 +3,8 @@
 Marty is a professional software tool originally developed for
 JK-Regeltechnik to improve the performance of certain tasks
 
+## [Current Release](https://github.com/thecodingcrow/martyCon/tree/master/dist)
+
 **Table of Contents**
 
 - What is Marty here for
