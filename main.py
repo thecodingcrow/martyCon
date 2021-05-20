@@ -28,7 +28,7 @@ default_abb_one = "RMC0001MWB"
 default_abb_two = "UKG0001_TempAdjust"
 
 # default state config
-dp_states = ['Send', 'Receive']
+dp_states = ['Receive', 'Send']
 
 first_text = dp_states[0]
 sec_text = dp_states[1]
@@ -159,8 +159,8 @@ def perform_search():
         source_dp = conn[0]
         for dest in conn[1:]:
             conn_string = get_connection_from_dps(conn_name=source_dp.name, dest_path=dest.id_path,
-                                                  orig_path=source_dp.id_path, index=index, first_text=sec_text,
-                                                  second_text=first_text)
+                                                  orig_path=source_dp.id_path, index=index, first_text=first_text,
+                                                  second_text=sec_text)
             all_connections.append(conn_string)
 
     lst_origin.delete(0, END)
